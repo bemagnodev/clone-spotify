@@ -1,10 +1,10 @@
-import Header from "./components/Header";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Artist from "./pages/Artist";
-import Artists from "./pages/Artists";
-import Song from "./pages/song";
-import Songs from "./pages/songs";
+import Header from './components/Header'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Artist from './pages/Artist'
+import Artists from './pages/Artists'
+import Song from './pages/Song'
+import Songs from './pages/Songs'
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
         <Route path="/songs" element={<Songs />} />|
       </Routes>
     </BrowserRouter>
-  );
-};
+  )
+}
 
-export default App;
+export default App
